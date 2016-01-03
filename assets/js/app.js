@@ -215,7 +215,7 @@ count_to = new Date(tomorrow.getTime()+30*3600000);//parseInt($(this).text())*10
 };
 }
 (e[i]('head')[0] || e[i]('body')[0]).appendChild(n);
-})(window,document,'script','/modules/countdown2/countdown/jquery.countdown.min.js','getElementsByTagName');
+})(window,document,'script','/assets/modules/countdown2/countdown/jquery.countdown.min.js','getElementsByTagName');
 }
 
 //////////////////////
