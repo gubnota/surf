@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-435cc2ec"],{"4dad":function(t,a,n){},aaad:function(t,a,n){"use strict";var c=n("4dad"),e=n.n(c);e.a},eca2:function(t,a,n){"use strict";n.r(a);var c=function(){var t=this,a=t.$createElement,n=t._self._c||a;return n("router-link",{staticClass:"bottom-text",attrs:{to:""}},[t._v("粤ICP备15092334号 Copyright 2012 - 2020 深圳拓邦股份有限公司 版权所有")])},e=[],o={},r=o,s=(n("aaad"),n("2877")),u=Object(s["a"])(r,c,e,!1,null,"20ab2b18",null);a["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-435cc2ec.a50585fa.js.map
