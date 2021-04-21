@@ -1,0 +1,19 @@
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/wc/robots.html
+# For syntax checking, see:
+# http://www.sxw.org.uk/computing/robots/check.html
+Host: excel.gubnota.ru
+User-agent: *
+Crawl-delay: 0.1
+Request-rate: 1/1
+Visit-time: 2200-4000
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baidubot
+Disallow: /
+
+User-agent: baiduspider
+Disallow: /

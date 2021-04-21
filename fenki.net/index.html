@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <title>Система контекстной рекламы fenki.net</title>
+<style>
+body{background-color: #fff;color: #666;font-family:Arial,Ubuntu,"PT Sans",FreeSans,"Noto Sans",Helvetica;font-size: 1em;}
+ul{color: #333;}
+ul li {list-style-type: none;}
+h1,h2,h3{color: #333;}
+h1 span.f{color:#fff;background:#309;padding-left:10px;padding-right:10px;border-right: 15px solid rgba(0,0,0,0.1);display: inline-block;}
+a {color: #4A9CBC;}
+.column{margin: 0 auto;
+    float: none;
+}
+.column-center{}
+.column-right{display: none;}
+@media(min-width:768px){.column-center{padding: 20px;max-width: 60%;float: left;}.column-right{float: none;display: block;width: auto;}}
+@media(min-width:960px){.column-center{padding: 10px;max-width: 66%;float: left;}}
+code{color:#fff;background:#309;font-family:Arial;display: block;padding: 8px;word-wrap:break-word;overflow: hidden;}
+.hljs-string, .hljs-tag .hljs-value, .hljs-cdata, .hljs-filter .hljs-argument, .hljs-attr_selector, .apache .hljs-cbracket, .hljs-date, .hljs-regexp, .coffeescript .hljs-attribute {
+color: #f8f;
+}
+.hljs-sub .hljs-identifier, .hljs-pi, .hljs-tag, .hljs-tag .hljs-keyword, .hljs-decorator, .ini .hljs-title, .hljs-shebang, .hljs-prompt, .hljs-hexcolor, .hljs-rules .hljs-value, .css .hljs-value .hljs-number, .hljs-literal, .hljs-symbol, .ruby .hljs-symbol .hljs-string, .hljs-number, .css .hljs-function, .clojure .hljs-attribute {
+color: #f66;
+}
+.hljs-keyword, .method, .hljs-list .hljs-title, .clojure .hljs-built_in, .nginx .hljs-title, .hljs-tag .hljs-title, .setting .hljs-value, .hljs-winutils, .tex .hljs-command, .http .hljs-title, .hljs-request, .hljs-status {
+color: #f8;
+}
+.hljs-class .hljs-title, .haskell .hljs-type, .smalltalk .hljs-class, .hljs-javadoctag, .hljs-yardoctag, .hljs-phpdoc, .hljs-typename, .hljs-tag .hljs-attribute, .hljs-doctype, .hljs-class .hljs-id, .hljs-built_in, .setting, .hljs-params, .hljs-variable, .clojure .hljs-title {
+color: #6f6;
+}
+code{}
+span.f{color:#fff;background:#309;padding-left:2px;padding-right:2px;border-right: 6px solid rgba(0,0,0,0.1);}
+</style></head>
+<body>
+<div class="column column-center">
+<h1 onclick="s(this)">Система контекстной рекламы <span class="f">fenki.net</span></h1>
+<div style="float:right;padding:20px;">
+<h3 onclick="s(this)">Контактная информация</h3>
+<ul><li class="phone" onclick="s(this)">8 (800) 100-96-62</li><li class="mobile" onclick="s(this)">+86 (137) 1710-6464</li><li class="email" onclick="s(this)"><script>document.write('<a href="mailto:'+'adm'+'in@fenki.net?subject='+document.domain+'">'+'adm'+'in@fenki.net</a>')</script></li></ul>
+</div>
+<h2 onclick="s(this)">Партнерам</h2>
+<p onclick="s(this)">Получи 80% выплат от рекламодателя, разместив на своем сайте объявления <span class="f">fenki.net</span>! Стоимость объявлений зависит от нескольких факторов, примерно 0.03-4$ за каждый клик или 0.5-2.5$ за 1000 просмотров. Для дешёвых кликов, партнер получает 100% выплат.</p>
+<p onclick="s(this)">Также приглашаются владельцы сайтов к бартерному обмену объявлениями сети <span class="f">fenki.net</span>: т.е. размещение ссылок на ресурсы на вашем сайте и участие ваших объявлений в показе на других сайтах.</p>
+<h2 onclick="s(this)">Рефералам</h2>
+<p onclick="s(this)">Получи 100 руб. за каждого привлеченного в систему реферала-рекламодателя и по 50 руб. за каждого привлеченного в систему активного партнера!</p>
+<h2 onclick="s(this)">Рекламодателям</h2>
+<p onclick="s(this)">Стоимость объявлений зависит от рода сайта: обычно от 0.03-0.27$ до 2-4$ за переход. По вопросам размещения объявлений в сети обращайтесь по вышеуказанным контактам.</p>
+<ul>
+    <li onclick="s(this)">Пишем ожидаемый бюджет</li>
+    <li onclick="s(this)">Составляем текст объявления</li>
+    <li onclick="s(this)">Строим аналитику посетителей, улучшая всю кампанию</li>
+</ul>
+<p onclick="s(this)">Страницу приземления посетителя поможем вам сделать бесплатно!</p>
+<h2 onclick="s(this)">Размещение объявлений у себя на сайте</h2>
+<p onclick="s(this)">В нужных местах появления объявлений нужно разместить любое кол-во блоков:</p>
+<code class="hljs xml" onclick="s(this)">
+<span class="hljs-tag">&lt;<span class="hljs-title">ins</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"adds_container"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">ins</span>&gt;</span><br>
+</code>
+<p onclick="s(this)">Перед закрывающим тегом <code class="hljs xml" onclick="s(this)" style="display:inline">&lt;<span class="hljs-title">/body</span>&gt;</code> следующий код:</p>
+<code class=" hljs javascript" onclick="s(this)"><span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init();}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+<h3 onclick="s(this)">Дополнительные настройки</h3>
+<p onclick="s(this)">Предусмотрена возможность как полностью менять стиль объявления через свойство <b>css</b>, так и только основные его параметры:</p>
+
+<code class=" hljs javascript" onclick="s(this)">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span>(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init(<br>
+{<br>
+tag_container: <span class="hljs-string">'ins'</span>,<span class="hljs-comment">//тэг-контейнер для объявления</span><br>
+tag_class: <span class="hljs-string">'adds_container'</span>,<span class="hljs-comment">//класс для объявлений</span><br>
+font_size: <span class="hljs-string">'13px'</span>,<span class="hljs-comment">// размер шрифта</span><br>
+header_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер заголовка</span><br>
+bg: <span class="hljs-string">'#fef9f5'</span>,<span class="hljs-comment">// цвет фона</span><br>
+color: <span class="hljs-string">'#000'</span>,<span class="hljs-comment">// цвет текста</span><br>
+ajax: <span class="hljs-number">1</span>,<span class="hljs-comment">// ajax загрузка страниц (да/нет)</span><br>
+display: <span class="hljs-string">'block'</span>,<span class="hljs-comment">// отображает в виде блока</span><br>
+provider_bg: <span class="hljs-string">'#669'</span>,<span class="hljs-comment">// цвет ссылки на сеть объявлений</span><br>
+provider_color: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет текста ссылки на сеть объявлений</span><br>
+link_color: <span class="hljs-string">'#070'</span>,<span class="hljs-comment">// цвет ссылки объявления</span><br>
+border_position: <span class="hljs-string">'-left'</span>,<span class="hljs-comment">// положение тени-границы объявления</span><br>
+font_family: <span class="hljs-string">'"Arial Narrow",Arial'</span>,<span class="hljs-comment">//шрифт</span><br>
+update_interval: <span class="hljs-number">40</span><span class="hljs-comment">//обновлять объявления каждые 40 секунд</span><br>
+}<br>
+);}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+
+<h3 onclick="s(this)">Примеры разного оформления</h3>
+<p onclick="s(this)">Белый текст на синем фоне:</p>
+<style>
+.adds_container_1 {margin-top:5px;display:inline-block;color: #fff;}
+.adds_container_1,.adds_container_1 .serp-block_1,.adds_container_1 .serp-block_1 *{font-size: 15px;font-family:Helvetica,Arial;text-decoration:none;}
+.adds_container_1 .serp-block_1{overflow:hidden;}
+.adds_container_1 .serp-block_1 .serp-item_1 h2{font-size: 14px;}
+.adds_container_1 .serp-block_1{border: 1px solid rgba(0,0,0,.06);border-right: 1px solid rgba(0,0,0,.06);padding: 0 5px; padding-bottom:0;background-color: #00a3d9;}
+.adds_container_1 .serp-block_1 * {transition: all 0.2s ease-in 0s; text-align: left;}
+.adds_container_1 .serp-block_1 a {color: #fff;text-decoration: none;}
+.adds_container_1 .serp-block_1 h2 a:hover,.adds_container_1 .serp-block_1 .url_link:hover {color:#000; background-color: #ff0;box-shadow: 0 0 10px rgba(0,0,0,.06);cursor: hand;}
+.adds_container_1 .serp-block_1 .head{font-size: 14px;font-family:Helvetica,Arial;top: 0;display: block;-webkit-box-shadow: none !important;box-shadow: none !important;}
+.adds_container_1 .serp-block_1 .head-wrap_1{line-height: 1.154;padding: 0 14px 0 12px;background: 0 0;position: relative;z-index: 1;}
+.adds_container_1 .head_1 a{color: #00a3d9;text-decoration: none;}
+.adds_container_1 .head_1{display: inline-block;float:right;padding:0 5px;background-color: #fff;font-size: 15px;font-family:Helvetica,Arial;border-right: 6px solid rgba(0,0,0,.06);}
+.adds_container_1 .serp-block_1 .serp-item_1{line-height:16px;position:relative;margin: 0;padding: 0;}
+.adds_container_1 .serp-block_1 .item-wrap_1{padding:0.2em;display: block;}
+.adds_container_1 .serp-block_1 .serp-item_1 h2{font-weight: 400; line-height: 18px; margin: -12px 25px 0 0; padding-top: 10px; overflow: hidden; padding-bottom: 1px;}
+.adds_container_1 .serp-block_1 .url_link_1,.adds_container_1 .serp-block_1 .url_link_1 a:link,.adds_container_1 .serp-block_1 .url_link_1:visited a,.adds_container_1 .serp-block_1 .url_link_1 a{font-size: 15px;font-family:Helvetica,Arial;text-decoration: none;color: #004359;}
+.adds_container_1 .serp-item_1 h2 + div>a{margin: 2px 0;padding-bottom: 0;}
+.adds_container_1 .serp-item_1 span{font-size:110%;line-height: 1em;word-wrap: break-word;}
+.adds_container_1 .serp-block_1 .url_link_1{float:left;}
+</style>
+<span class="adds_container_1" onclick="s(this)">
+  <div class="serp-block_1"><div class="serp-item_1"><div class="item-wrap_1">
+    <h2><a href="#" data-id="4">Регистрация <b>гонконгской компании</b></a></h2>
+    <div class="content_1">Регистрация по паспорту, <b>600 у.е.</b>, месяц</div><div class="head_1"><a href="./">fenki.net</a></div>
+    <div class="url_link_1"><a href="#">air-365.ru</a></div>
+</div></div></div>
+</span>
+
+<code class=" hljs xml" onclick="s(this)"><br>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init(<br>
+{<br>
+font_size: <span class="hljs-string">'15px'</span>,<span class="hljs-comment">// размер шрифта</span><br>
+header_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер заголовка</span><br>
+bg: <span class="hljs-string">'#00a3d9'</span>,<span class="hljs-comment">// цвет фона</span><br>
+color: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет текста</span><br>
+provider_bg: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет ссылки на сеть объявлений</span><br>
+provider_color: <span class="hljs-string">'#669'</span>,<span class="hljs-comment">// цвет текста ссылки на сеть объявлений</span><br>
+link_color: <span class="hljs-string">'#004359'</span>,<span class="hljs-comment">// цвет ссылки объявления</span><br>
+font_family: <span class="hljs-string">'Helvetica,Arial'</span>,<span class="hljs-comment">//шрифт</span><br>
+}<br>
+);}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span><br>
+</code>
+<p onclick="s(this)">Синий на белом фоне:</p>
+<style>.adds_container_2 {margin-top:5px;display:inline-block;color: #333;}
+.adds_container_2,.adds_container_2 .serp-block_2,.adds_container_2 .serp-block_2 *{font-size: 14px;font-family:"Times New Roman";text-decoration:none;}
+.adds_container_2 .serp-block_2{overflow:hidden;}
+.adds_container_2 .serp-block_2 .serp-item_2 h2{font-size: 14px;}
+.adds_container_2 .serp-block_2{border: 1px solid rgba(0,0,0,.06);border-right: 1px solid rgba(0,0,0,.06);padding: 0 5px; padding-bottom:0;background-color: #fff;}
+.adds_container_2 .serp-block_2 * {transition: all 0.2s ease-in 0s; text-align: left;}
+.adds_container_2 .serp-block_2 a {color: #333;text-decoration: none;}
+.adds_container_2 .serp-block_2 h2 a:hover,.adds_container_2 .serp-block_2 .url_link:hover {color:#000; background-color: #ff0;box-shadow: 0 0 10px rgba(0,0,0,.06);cursor: hand;}
+.adds_container_2 .serp-block_2 .head{font-size: 14px;font-family:"Times New Roman";top: 0;display: block;-webkit-box-shadow: none !important;box-shadow: none !important;}
+.adds_container_2 .serp-block_2 .head-wrap_2{line-height: 1.154;padding: 0 14px 0 12px;background: 0 0;position: relative;z-index: 1;}
+.adds_container_2 .head_2 a{color: #fff;text-decoration: none;}
+.adds_container_2 .head_2{display: inline-block;float:right;padding:0 5px;background-color: #00a3d9;font-size: 14px;font-family:"Times New Roman";border-right: 6px solid rgba(0,0,0,.06);}
+.adds_container_2 .serp-block_2 .serp-item_2{line-height:16px;position:relative;margin: 0;padding: 0;}
+.adds_container_2 .serp-block_2 .item-wrap_2{padding:0.2em;display: block;}
+.adds_container_2 .serp-block_2 .serp-item_2 h2{font-weight: 400; line-height: 18px; margin: -12px 25px 0 0; padding-top: 10px; overflow: hidden; padding-bottom: 1px;}
+.adds_container_2 .serp-block_2 .url_link_2,.adds_container_2 .serp-block_2 .url_link_2 a:link,.adds_container_2 .serp-block_2 .url_link_2:visited a,.adds_container_2 .serp-block_2 .url_link_2 a{font-size: 14px;font-family:"Times New Roman";text-decoration: none;color: #00a3d9;}
+.adds_container_2 .serp-item_2 h2 + div>a{margin: 2px 0;padding-bottom: 0;}
+.adds_container_2 .serp-item_2 span{font-size:110%;line-height: 1em;word-wrap: break-word;}
+.adds_container_2 .serp-block_2 .url_link_2{float:left;}</style>
+
+<span class="adds_container_2" onclick="s(this)"><div class="serp-block_2"><div class="serp-item_2"><div class="item-wrap_2"><h2><a href="#" data-id="5">Регистрация <b>китайской компании</b></a></h2><div class="content_2">Регистрация по паспорту, <b>3000 у.е.</b>, 3 месяца</div><div class="head_2"><a href="./">fenki.net</a></div><div class="url_link_2"><a href="#" data-id="5">air-365.ru</a></div></div></div></div></span>
+
+<code class=" hljs xml" onclick="s(this)">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init(<br>
+{<br>
+font_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер шрифта</span><br>
+header_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер заголовка</span>
+bg: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет фона</span><br>
+color: <span class="hljs-string">'#333'</span>,<span class="hljs-comment">// цвет текста</span><br>
+provider_bg: <span class="hljs-string">'#00a3d9'</span>,<span class="hljs-comment">// цвет ссылки на сеть объявлений</span><br>
+provider_color: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет текста ссылки на сеть объявлений</span><br>
+link_color: <span class="hljs-string">'#00a3d9'</span>,<span class="hljs-comment">// цвет ссылки объявления</span><br>
+font_family: <span class="hljs-string">'"Times New Roman"'</span>,<span class="hljs-comment">//шрифт</span><br>
+}<br>
+);}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+
+<p onclick="s(this)">Простое объявление на прозрачной подложке с голубой ссылкой:</p>
+
+<style>.adds_container_3 {margin-top:5px;display:inline-block;color: #333;}
+.adds_container_3,.adds_container_3 .serp-block_3,.adds_container_3 .serp-block_3 *{font-size: 14px;font-family:Tahoma,Arial;text-decoration:none;}
+.adds_container_3 .serp-block_3{overflow:hidden;}
+.adds_container_3 .serp-block_3 .serp-item_3 h2{font-size: 14px;}
+.adds_container_3 .serp-block_3{border-left: 1px solid rgba(0,0,0,.06);border-right: 1px solid rgba(0,0,0,.06);padding: 0 5px; padding-bottom:0;background-color: transparent;}
+.adds_container_3 .serp-block_3 * {transition: all 0.2s ease-in 0s; text-align: left;}
+.adds_container_3 .serp-block_3 a {color: #333;text-decoration: none;}
+.adds_container_3 .serp-block_3 h2 a:hover,.adds_container_3 .serp-block_3 .url_link:hover {color:#000; background-color: #ff0;box-shadow: 0 0 10px rgba(0,0,0,.06);cursor: hand;}
+.adds_container_3 .serp-block_3 .head{font-size: 14px;font-family:Tahoma,Arial;top: 0;display: block;-webkit-box-shadow: none !important;box-shadow: none !important;}
+.adds_container_3 .serp-block_3 .head-wrap_3{line-height: 1.154;padding: 0 14px 0 12px;background: 0 0;position: relative;z-index: 1;}
+.adds_container_3 .head_3 a{color: #fff;text-decoration: none;}
+.adds_container_3 .head_3{display: inline-block;float:right;padding:0 5px;background-color: #00a3d9;font-size: 14px;font-family:Tahoma,Arial;border-right: 6px solid rgba(0,0,0,.06);}
+.adds_container_3 .serp-block_3 .serp-item_3{line-height:16px;position:relative;margin: 0;padding: 0;}
+.adds_container_3 .serp-block_3 .item-wrap_3{padding:0.2em;display: block;}
+.adds_container_3 .serp-block_3 .serp-item_3 h2{font-weight: 400; line-height: 18px; margin: -12px 25px 0 0; padding-top: 10px; overflow: hidden; padding-bottom: 1px;}
+.adds_container_3 .serp-block_3 .url_link_3,.adds_container_3 .serp-block_3 .url_link_3 a:link,.adds_container_3 .serp-block_3 .url_link_3:visited a,.adds_container_3 .serp-block_3 .url_link_3 a{font-size: 14px;font-family:Tahoma,Arial;text-decoration: none;color: #00a3d9;}
+.adds_container_3 .serp-item_3 h2 + div>a{margin: 2px 0;padding-bottom: 0;}
+.adds_container_3 .serp-item_3 span{font-size:110%;line-height: 1em;word-wrap: break-word;}
+.adds_container_3 .serp-block_3 .url_link_3{float:left;}</style>
+<span class="adds_container_3" onclick="s(this)"><div class="serp-block_3"><div class="serp-item_3"><div class="item-wrap_3"><h2><a href="#">Трудоустроился <span style="color:red">я</span> в Китае,</a></h2><div class="content_3">есть биржа труда такая, записывай</div><div class="head_3"><a href="#">fenki.net</a></div><div class="url_link_3"><a href="#">takoi-sait-n.ru</a></div></div></div></div></span>
+
+<code class=" hljs xml" onclick="s(this)">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init(<br>
+{<br>
+        font_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер шрифта</span><br>
+        header_size: <span class="hljs-string">'14px'</span>,<span class="hljs-comment">// размер заголовка</span><br>
+        bg: <span class="hljs-string">'transparent'</span>,<span class="hljs-comment">// цвет фона</span><br>
+        color: <span class="hljs-string">'#333'</span>,<span class="hljs-comment">// цвет текста</span><br>
+        provider_bg: <span class="hljs-string">'#00a3d9'</span>,<span class="hljs-comment">// цвет ссылки на сеть объявлений</span><br>
+        provider_color: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет текста ссылки на сеть объявлений</span><br>
+        link_color: <span class="hljs-string">'#00a3d9'</span>,<span class="hljs-comment">// цвет ссылки объявления</span><br>
+        font_family: <span class="hljs-string">'Tahoma,Arial'</span>,<span class="hljs-comment">//шрифт</span><br>
+}<br>
+);}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+
+<p onclick="s(this)">Черно-белый стиль:</p>
+<style>.adds_container_4 {margin-top:5px;display:inline-block;color: #333;}
+.adds_container_4,.adds_container_4 .serp-block_4,.adds_container_4 .serp-block_4 *{font-size: 13px;font-family:"Arial Narrow",Arial;text-decoration:none;}
+.adds_container_4 .serp-block_4{overflow:hidden;}
+.adds_container_4 .serp-block_4 .serp-item_4 h2{font-size: 14px;}
+.adds_container_4 .serp-block_4{border-left: 1px solid rgba(0,0,0,.06);border-right: 1px solid rgba(0,0,0,.06);padding: 0 5px; padding-bottom:0;background-color: #fef9f5;}
+.adds_container_4 .serp-block_4 * {transition: all 0.2s ease-in 0s; text-align: left;}
+.adds_container_4 .serp-block_4 a {color: #333;text-decoration: none;}
+.adds_container_4 .serp-block_4 h2 a:hover,.adds_container_4 .serp-block_4 .url_link:hover {color:#000; background-color: #ff0;box-shadow: 0 0 10px rgba(0,0,0,.06);cursor: hand;}
+.adds_container_4 .serp-block_4 .head{font-size: 14px;font-family:"Arial Narrow",Arial;top: 0;display: block;-webkit-box-shadow: none !important;box-shadow: none !important;}
+.adds_container_4 .serp-block_4 .head-wrap_4{line-height: 1.154;padding: 0 14px 0 12px;background: 0 0;position: relative;z-index: 1;}
+.adds_container_4 .head_4 a{color: #fff;text-decoration: none;}
+.adds_container_4 .head_4{display: inline-block;float:right;padding:0 5px;background-color: #333;font-size: 13px;font-family:"Arial Narrow",Arial;border-right: 6px solid rgba(0,0,0,.06);}
+.adds_container_4 .serp-block_4 .serp-item_4{line-height:16px;position:relative;margin: 0;padding: 0;}
+.adds_container_4 .serp-block_4 .item-wrap_4{padding:0.2em;display: block;}
+.adds_container_4 .serp-block_4 .serp-item_4 h2{font-weight: 400; line-height: 18px; margin: -12px 25px 0 0; padding-top: 10px; overflow: hidden; padding-bottom: 1px;}
+.adds_container_4 .serp-block_4 .url_link_4,.adds_container_4 .serp-block_4 .url_link_4 a:link,.adds_container_4 .serp-block_4 .url_link_4:visited a,.adds_container_4 .serp-block_4 .url_link_4 a{font-size: 13px;font-family:"Arial Narrow",Arial;text-decoration: none;color: #333;}
+.adds_container_4 .serp-item_4 h2 + div>a{margin: 2px 0;padding-bottom: 0;}
+.adds_container_4 .serp-item_4 span{font-size:110%;line-height: 1em;word-wrap: break-word;}
+.adds_container_4 .serp-block_4 .url_link_4{float:left;}</style>
+<span class="adds_container_4" onclick="s(this)"><div class="serp-block_4"><div class="serp-item_4"><div class="item-wrap_4"><h2><a href="#">Ведете бизнес в <b>Китае</b>?</a></h2><div class="content_4">Здесь могла бы быть ваша реклама! <b><span style="color:red">2</span>.5 $</b>, 1000 просмотров</div><div class="head_4"><a href="#">fenki.net</a></div><div class="url_link_4"><a href="#">tut-est-sait.ru</a></div></div></div></div></span>
+<code class=" hljs xml" onclick="s(this)">
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(f,e,n,k,i)</span></span>{<span class="hljs-keyword">if</span>(!e.getElementById(<span class="hljs-string">'adds_script'</span>)){var n=e.createElement(n),y=e.getElementsByTagName(i)[<span class="hljs-number">0</span>];n.setAttribute(<span class="hljs-string">'id'</span>,<span class="hljs-string">'adds_script'</span>);n.async=<span class="hljs-number">1</span>;n.src=k;y.appendChild(n);<span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span>(Adds) == <span class="hljs-string">'undefined'</span>){n.onload = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{Adds.init(<br>
+{<br>
+        color: <span class="hljs-string">'#333'</span>,<span class="hljs-comment">// цвет текста</span><br>
+        provider_bg: <span class="hljs-string">'#333'</span>,<span class="hljs-comment">// цвет ссылки на сеть объявлений</span><br>
+        provider_color: <span class="hljs-string">'#fff'</span>,<span class="hljs-comment">// цвет текста ссылки на сеть объявлений</span><br>
+        link_color: <span class="hljs-string">'#333'</span>,<span class="hljs-comment">// цвет ссылки объявления</span><br>
+}<br>
+);}}}})(<span class="hljs-built_in">window</span>,<span class="hljs-built_in">document</span>,<span class="hljs-string">'script'</span>,<span class="hljs-string">'//fenki.net/adds/adds.min.js'</span>,<span class="hljs-string">'head'</span>);</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code>
+
+
+</div>
+<div class="column column-right" onclick="s(this)">
+<div style="position:fixed;top: 10px;right: 0;overflow:hidden;max-width:33%;">
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins>
+<ins class="adds_container"></ins></div>
+</div>
+<script>(function(f,e,n,k,i){if(!e.getElementById('adds_script')){var n=e.createElement(n),y=e.getElementsByTagName(i)[0];n.setAttribute('id','adds_script');n.async=1;n.src=k;y.appendChild(n);if(typeof(Adds) == 'undefined'){n.onload = function() {Adds.init();}}}})(window,document,'script',document.location.href+'adds/adds.min.js','head');</script>
+</body>
+</html>
