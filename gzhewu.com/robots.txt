@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /intl/
+Disallow: /vendor/
+Disallow: /order/
+Disallow: /user/
+Disallow: /js/
+Disallow: /captcha/
+Disallow: /src/
+Disallow: /design/
+Disallow: /api/
+Disallow: /compiled/
+Disallow: /cart/
+Disallow: /resize/
+Disallow: /cache/
