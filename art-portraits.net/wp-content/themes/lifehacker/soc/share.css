@@ -1,0 +1,175 @@
+/*
+* Share this
+*/
+.soc_header > span {margin-top: -15px;display: block;font-style: italic; color:#999 !important;}
+.soc_header {
+    background: url("../img/str.png") no-repeat scroll 0 6px rgba(0, 0, 0, 0);
+    color: #999999;
+/*    padding-left: 15px !important;
+*/}
+.sharethis .b-share {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+}
+.count {
+    color: #FFFFFF;
+    display: none;
+    float: left;
+    font-size: 14px/18px;
+    margin: 3px 6px 3px 3px;
+}
+.sharethis .have-counter .count {
+    display: block;
+}
+.have-counter {
+    text-decoration: none;
+}
+.sharethis .like {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+.sharethis .like:first-child {
+    margin-left: 10px;
+}
+.sharethis .lnk {
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+box-shadow: 0 -5px 0 rgba(0, 0, 0, 0.1) inset;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+.sharethis .lnk:hover{margin-top: -2px;}
+.sharethis .ico {
+    background-image: url("../img/b-share_counter_large.png");
+    background-position: -20px 0;
+    display: block;
+    float: left;
+    height: 24px;
+    width: 24px;
+}
+.sharethis .ico-facebook {
+    background-position: 0 0;
+}
+.sharethis .btn-facebook {
+    background-color: #3C5A98;
+}
+.sharethis .btn-facebook:hover {
+    background-color: #30487A;
+}
+.sharethis .btn-facebook:active {
+    background-color: #334D81;
+    border-top: 2px solid #24365A;
+}
+.sharethis .ico-moimir {
+    background-position: 0 -29px;
+}
+.sharethis .btn-moimir {
+    background-color: #226EB7;
+}
+.sharethis .btn-moimir:hover {
+    background-color: #1B5892;
+}
+.sharethis .btn-moimir:active {
+    background-color: #1D5E9C;
+    border-top: 2px solid #14426D;
+}
+.sharethis .ico-vkontakte {
+    background-position: 0 -58px;
+}
+.sharethis .btn-vkontakte {
+    background-color: #48729E;
+}
+.sharethis .btn-vkontakte:hover {
+    background-color: #3A5B7E;
+}
+.sharethis .btn-vkontakte:active {
+    background-color: #3D6186;
+    border-top: 2px solid #2B445E;
+}
+.sharethis .ico-twitter {
+    background-position: 0 -87px;
+}
+.sharethis .btn-twitter {
+    background-color: #00ACED;
+}
+.sharethis .btn-twitter:hover {
+    background-color: #008ABE;
+}
+.sharethis .btn-twitter:active {
+    background-color: #0092CA;
+    border-top: 2px solid #00668D;
+}
+.sharethis .ico-odnoklassniki {
+    background-position: 0 -116px;
+}
+.sharethis .btn-odnoklassniki {
+    background-color: #FF9F4D;
+}
+.sharethis .btn-odnoklassniki:hover {
+    background-color: #CC7F3E;
+}
+.sharethis .btn-odnoklassniki:active {
+    background-color: #D98742;
+    border-top: 2px solid #975E2E;
+}
+.sharethis .ico-gplus {
+    background-position: 0 -145px;
+}
+.sharethis .btn-gplus {
+    background-color: #C25234;
+}
+.sharethis .btn-gplus:hover {
+    background-color: #9B422A;
+}
+.sharethis .btn-gplus:active {
+    background-color: #A5462C;
+    border-top: 2px solid #73311F;
+}
+.sharethis .ico-yaru {
+    background-position: 0 -174px;
+}
+.sharethis .btn-yaru {
+    background-color: #D83933;
+}
+.sharethis .btn-yaru:hover {
+    background-color: #AD2E29;
+}
+.sharethis .btn-yaru:active {
+    background-color: #B8312B;
+    border-top: 2px solid #80221E;
+}
+.sharethis .lnk:active {
+    height: 22px;
+}
+.sharethis .lnk:active .ico, .sharethis .lnk:active .count {
+    position: relative;
+    top: -1px;
+}
+.sharethis .lnk:after {
+    background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sharethis .hand {
+    height: auto;
+    padding: 0 !important;
+}
+.sharethis{
+    background-color: rgb(222, 222, 222);
+    padding: 4px 0;
+    margin-top: 20px; 
+    background-image: url("../img/pat-bg.png");
+    border-radius: 3px;
+}
