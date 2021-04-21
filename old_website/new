@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base href="/"/>
+	<meta charset="utf-8">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+	<title>首页 古诺达科技(深圳)有限公司</title>
+		<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css?1397396815" />
+		<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+			<script type="text/javascript" src="assets/js/jquery-2.0.3.min.js?1397407531"></script>
+	</head>
+<body>
+<header class="navbar navbar-default navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">菜单</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="logo"><a class="navbar-brand" href="/" style="text-decoration: underline;">AW-HK.COM</a></span>
+        </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav main-nav">
+      	
+<li class="dropdown ">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 网站建设 <b class="caret"></b></a>
+<ul class="dropdown-menu multi-level" role="menu">
+						<li class="dropdown-submenu"><a href="#">设计</a>
+			<ul class="dropdown-menu">
+									<li><a href="1.html">首页</a></li>
+												<li><a href="2.html">公司简介</a></li>
+												<li><a href="5.html">设计宣传单</a></li>
+												<li><a href="6.html">设计演示</a></li>
+									</ul>		</li>
+								<li class="dropdown-submenu"><a href="#">营销</a>
+			<ul class="dropdown-menu">
+									<li><a href="3.html">邮件营销</a></li>
+												<li><a href="4.html">网站推广</a></li>
+									</ul>		</li>
+								<li class="dropdown-submenu"><a href="#">开发</a>
+			<ul class="dropdown-menu">
+									<li><a href="7.html">苹果开发</a></li>
+												<li><a href="8.html">安卓开发</a></li>
+												<li><a href="9.html">网站平台开发</a></li>
+									</ul>		</li>
+			</ul>
+</li><!-- \.category -->
+
+
+<li class="dropdown ">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 帮助 <b class="caret"></b></a>
+<ul class="dropdown-menu multi-level" role="menu">
+						<li class="dropdown-submenu"><a href="#">厂家直销</a>
+			<ul class="dropdown-menu">
+									<li><a href="10.html">申请</a></li>
+									</ul>		</li>
+			</ul>
+</li><!-- \.category -->
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+	<div class="container-fluid">
+<header id="header" style="display:none;">
+			<div class="table">
+				<h1><a href="/">
+					<strong>古诺达科技（深圳）有限公司</strong><span> 网站制作 </span>
+				</a>
+				</h1>
+							</div>
+			<nav>
+<div class="clear"></div>
+			</nav>
+			<a id="toc_handle" href="#">меню</a>
+			<div class="clear"></div>
+</header>
+
+	<div class="col-md-12">
+		</div>
+		<div class="col-md-12">
+<ol class="breadcrumb">
+  <li><div class="btn-group">
+  	<button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">网站 <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+      <li><a href="/">首页</a></li>
+      <li><a href="/2.html">公司简介</a></li>
+    </ul>
+</div>
+</li>
+  <li><a href="#" class="btn btn-primary btn-xs">网站建设</a></li>
+  <li><a href="#" class="btn btn-success btn-xs">设计</a></li>
+  <li class="active">首页</li>
+</ol>
+<div id="page">
+<p></p>
+<!-- 1. TOP BANNER #33aaff -->
+<section role="banner">
+<div class="fluid-container">
+<div class="row-fluid clearfix"><!-- row-fluid Head Banner --> <!-- Carousel
+    ================================================== -->
+<div id="main-banner" class="carousel slide">
+<div class="carousel-inner">
+<div class="item active"><!-- item 1.Branding -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 branding"><!-- Left part -->
+<div class="branding-left"><!--left part container --><hr class="invisible" />
+<p>个性化设置公司品牌和设计<br />网站是不可分割一部分。</p>
+<hr class="invisible" /><a class="btn btn-lg btn-primary item-btn callme_viewform" href="#">我要订做</a></div>
+<!--left part container --></div>
+<!-- Left part -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 branding-right"><!-- Right part -->
+<div class="branding-right-container"><!--right part container -->
+<div class="branding-right-pic" alt="设计LOGO，个性化设置公司品牌和设计网站是不可分割一部分"><!-- banner picture container -->
+<h1 class="hide-text">牌和设计网站是</h1>
+</div>
+<!-- banner picture container --></div>
+<!--right part container --></div>
+<!-- Right part --></div>
+<!-- item 1.Branding -->
+<div class="item"><!-- item 2.Prototype -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 prototype"><!-- Left part -->
+<div class="prototype-left"><!--left part container --><hr class="invisible" />
+<p>做网站先要做原型设计。 设计需要知道 企业的使命，目标受众。</p>
+<hr class="invisible" /><a class="btn btn-lg btn-success item-btn callme_viewform" href="#">我要订做</a></div>
+<!--left part container --></div>
+<!-- Left part -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 prototype-right"><!-- Right part -->
+<div class="prototype-right-container"><!--right part container -->
+<div class="prototype-right-pic" alt="原型设计网站模型">
+<p class="prototype-right-text">原型设计网站模型</p>
+</div>
+</div>
+<!--right part container --></div>
+<!-- Right part --></div>
+<!-- item 2.Prototype -->
+<div class="item"><!-- item 3.Design -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 design"><!-- Left part -->
+<div class="design-left"><!--left part container --><hr class="invisible" />
+<p>下一步要设置网站</p>
+<hr class="invisible" /><a class="btn btn-lg btn-primary item-btn callme_viewform" href="#">我要订做</a></div>
+<!--left part container --></div>
+<!-- Left part -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 design-right"><!-- Right part -->
+<div class="design-right-container"><!--right part container -->
+<div class="design-right-pic" alt="原型设计网站模型">
+<h1 class="hide-text">设计响应性模式网站</h1>
+</div>
+</div>
+<!--right part container --></div>
+<!-- Right part --></div>
+<!-- item 3.Design -->
+<div class="item"><!-- item 4.Code -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 code"><!-- Left part -->
+<div class="code-left"><!--left part container --><hr class="invisible" />
+<p>最后要建设一个真正营运的<br />网站可享用平板及智能手机。</p>
+<hr class="invisible" /><a class="btn btn-lg btn-success item-btn callme_viewform" href="#">我要订做</a></div>
+<!-- left part container --></div>
+<!-- Left part -->
+<div class="col-6 col-xs-6 col-sm-6 col-lg-6 code-right"><!-- Right part -->
+<div class="code-right-container"><!--right part container -->
+<div class="code-right-pic" alt="最后要建设一个真正营运的网站可享用平板及智能手机。
+">
+<h1 class="hide-text">最后要建设一个真正营运的网站可享用平板及智能手机。</h1>
+</div>
+</div>
+<!--right part container --></div>
+<!-- Right part --></div>
+<!-- item 4.Code --></div>
+<!-- carousel-inner --> <a class="left main-banner-control" href="#main-banner" data-slide="prev"><span class="left-arrow"></span></a> <a class="right main-banner-control" href="#main-banner" data-slide="next"><span class="right-arrow"></span></a> <!-- Indicators --><ol class="carousel-indicators">
+<li data-target="#main-banner" data-slide-to="0" class="active"></li>
+<li data-target="#main-banner" data-slide-to="1"></li>
+<li data-target="#main-banner" data-slide-to="2"></li>
+<li data-target="#main-banner" data-slide-to="3"></li>
+</ol><!-- Indicators --></div>
+<!-- /.carousel --></div>
+<!-- row-fluid Head Banner --></div>
+<!-- fluid-container --></section>
+<!-- END 1. TOP BANNER #33aaff --><hr /><!-- 2. PORTFOLIO #4fb634 -->
+<section>
+<div class="fluid-container">
+<div class="row-fluid clearfix">
+<h1>案例展示</h1>
+<!-- 2.PORTFOLIO BANNER -->
+<div id="portfolio-banner" class="carousel slide clearfix portfolio-banner">
+<div class="carousel-inner">
+<div class="item active">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://air365.gubnota.ru/" target="_blank"><img src="/upload/portfolio/air365_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://call.china101.ru/" target="_blank"><img src="/upload/portfolio/call.china101.ru_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://gzhewu.gubnota.ru/" target="_blank"><img src="/upload/portfolio/gzhewu.com_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://led.gubnota.ru/" target="_blank"><img src="/upload/portfolio/xinyuan-led.com_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://shai-pr.aw-hk.com/" target="_blank"><img src="/upload/portfolio/shanghai-pr.com_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://otel.fuquoc.ru/" target="_blank"><img src="/upload/portfolio/otel.fuquoc.ru_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://jon.gubnota.ru/" target="_blank"><img src="/upload/portfolio/art-portraits_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://excel.gubnota.ru/" target="_blank"><img src="/upload/portfolio/excel.gubnota.ru_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://shop.promo-china.ru/" target="_blank"><img src="/upload/portfolio/promo-china_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item -->
+<div class="item">
+<div class="col-12 col-xs-12 col-sm-12 col-lg-12">
+<div class="laptop"><a href="http://chip.gubnota.ru/" target="_blank"><img src="/upload/portfolio/alliance-chip.net_434-0.jpg" alt="" class="portfolio-img" /></a></div>
+</div>
+</div>
+<!-- item --></div>
+<a href="#portfolio-banner" class="portfolio-banner-control left" data-slide="prev"><span class="left-arrow"></span></a> <a href="#portfolio-banner" class="portfolio-banner-control right" data-slide="next"><span class="right-arrow"></span></a> <!-- Indicators --><ol class="carousel-indicators">
+<li data-target="#portfolio-banner" data-slide-to="0" class="active"></li>
+<li data-target="#portfolio-banner" data-slide-to="1"></li>
+<li data-target="#portfolio-banner" data-slide-to="2"></li>
+<li data-target="#portfolio-banner" data-slide-to="3"></li>
+<li data-target="#portfolio-banner" data-slide-to="4"></li>
+<li data-target="#portfolio-banner" data-slide-to="5"></li>
+<li data-target="#portfolio-banner" data-slide-to="6"></li>
+<li data-target="#portfolio-banner" data-slide-to="7"></li>
+<li data-target="#portfolio-banner" data-slide-to="8"></li>
+<li data-target="#portfolio-banner" data-slide-to="9"></li>
+</ol><!-- end Indicators --></div>
+<!-- end 2.PORTFOLIO BANNER --></div>
+<!-- row-fluid --></div>
+<!-- fliud-container --><hr class="invisible" /></section>
+<!-- END 2. PORTFOLIO #4fb634 -->
+<p></p>
+<!-- 3. PLANS #ffc000 -->
+<section>
+<div class="fluid-container">
+<div class="row-fluid clearfix plans-section"><!-- 3.PLANS HEADER -->
+<h1>中小企业业务套餐</h1>
+<!-- 3.PLANS HEADER -->
+<div class="clearfix"></div>
+<div class="col-4 col-xs-12 col-sm-4 col-lg-4"><!-- First row -->
+<table class="table-feautures">
+<thead>
+<tr><th>物流公司</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="first">A计划 1000元起 续费 42元/月，462元/年</td>
+</tr>
+<tr>
+<td class="odd">1 域名</td>
+</tr>
+<tr>
+<td class="even">基本设计</td>
+</tr>
+<tr>
+<td class="odd">基本推广</td>
+</tr>
+<tr>
+<td class="even">安装货物跟踪系统</td>
+</tr>
+<tr>
+<td class="odd">响应性网站</td>
+</tr>
+<tr>
+<td class="even">国际托管和维护</td>
+</tr>
+<tr>
+<td class="odd">网站流量统计系统</td>
+</tr>
+<tr>
+<td class="even last"><a class="btn btn-primary callme_viewform" href="#">我要订做!</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- First row end -->
+<div class="col-4 col-xs-12 col-sm-4 col-lg-4"><!-- Second row -->
+<table class="table-feautures">
+<thead>
+<tr><th>工厂</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="first">B计划 2000元 续费 78元/月，858元/年</td>
+</tr>
+<tr>
+<td class="odd">1 域名</td>
+</tr>
+<tr>
+<td class="even">基本设计</td>
+</tr>
+<tr>
+<td class="odd">基本推广</td>
+</tr>
+<tr>
+<td class="even">安装产品展示系统</td>
+</tr>
+<tr>
+<td class="odd">响应性网站</td>
+</tr>
+<tr>
+<td class="even">国际托管和维护</td>
+</tr>
+<tr>
+<td class="odd">网站流量统计系统</td>
+</tr>
+<tr>
+<td class="even last"><a class="btn btn-primary callme_viewform" href="#">我要订做!</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Second row end -->
+<div class="col-4 col-xs-12 col-sm-4 col-lg-4"><!-- Third row -->
+<table class="table-feautures">
+<thead>
+<tr><th>外贸</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="first">C计划 3000元 续费 210元/月，2310元/年</td>
+</tr>
+<tr>
+<td class="odd">1 域名</td>
+</tr>
+<tr>
+<td class="even">基本设计</td>
+</tr>
+<tr>
+<td class="odd">基本推广</td>
+</tr>
+<tr>
+<td class="even">安装产品购物系统</td>
+</tr>
+<tr>
+<td class="odd">响应性网站</td>
+</tr>
+<tr>
+<td class="even">国际托管和维护</td>
+</tr>
+<tr>
+<td class="odd">网站流量统计系统</td>
+</tr>
+<tr>
+<td class="even last"><a class="btn btn-primary callme_viewform" href="#">我要订做!</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Third row end --></div>
+<!-- .row-fluid of 3.PLANS --></div>
+<!-- fliud-container of 3. PLANS --></section>
+<!-- END 3. PLANS #ffc000 -->
+<p></p></div>
+		</div>
+		<div class="clear" style="min-height:100px"></div>
+	</div>
+<div class="fliud-container footer">
+        <div class="row-fluid clearfix footer">
+            <div class="col-5 col-xs-12 col-sm-5 col-lg-5 left-footer"><!-- left-footer row -->
+                <ul class="social-list">
+                    <li><span class="sprite social-ww-icon"></span><a target="_blank" href="//www.taobao.com/webww/?touid=%E8%89%BA%E8%BE%BE%E4%BC%81%E4%B8%9A">艺达企业,</a><a target="_blank" href="//www.taobao.com/webww/?touid=rusya">rusya</a></li>
+                    <li><span class="sprite social-weibo-icon"></span><a target="_blank" href="//weibo.com/gunuoda">gunuoda</a></li>
+                    <li><span class="sprite social-qq-icon"></span><a class="qq" target="_blank" href="//wpa.qq.com/msgrd?uin=2531087693">2531087693</a></li>
+                </ul>
+            </div><!-- left-footer row -->
+            <div class="col-7 col-xs-12 col-sm-7 col-lg-7 right-footer"><!-- right-footer row -->
+            <p>地址：深圳市宝安区龙华明治街道皇嘉梅陇公馆B座1415室(民治维也纳酒店后面)
+            <br>
+电话：13267029097<br>
+Web：<a href="//aw-hk.com/">www.aw-hk.com</a></p>
+            <div class="action"><img src="//aw-hk.com/assets/img/theme/qr.png" alt="微信二维码识别"></div>
+            <p class="copy">&copy; 2014 <a href="">古诺达科技（深圳）有限公司</a><br>
+ 设计上使用模拟图像。 报价不含税。<br>
+公司保留所有权利。所有其他商标和注册商标是都归公司所有。<br>粤ICP备15013302号-1</p>
+
+<script type="text/javascript">
+// var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+// document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa828beb8f338e3cc3d3243f86a865108' type='text/javascript'%3E%3C/script%3E"));
+/* subscribe form */
+
+/*\subscribe form */
+</script>
+            </div><!--/right-footer row -->
+        </div><!-- row-fluid footer -->
+        
+    </div>
+		<footer>
+			<p class="pull-right" id="footer-right">设计上使用模拟图像。 报价不含税。所有其他商标和注册商标是都归公司所有 2014&ndash;2018 </p>
+			<p>
+				<a href="">古诺达科技（深圳）有限公司</a> 公司保留所有权利 &copy;.<br>
+			</p>
+		</footer>
+		<link type="text/css" rel="stylesheet" href="assets/css/app.css?1403168910" />
+			<script type="text/javascript" src="assets/js/bootstrap.js?1397022406"></script>
+		<script type="text/javascript" src="assets/js/app.js?1397409915"></script>
+	<script src="/callme/js/callme.js"></script>
+<link rel="stylesheet" href="/assets/css/tracker_phoneicon_qq.css" defer="true">
+<a id="clbh_phone_div" class="cbh-phone cbh-show clbh_blur cbh-static cbh-active cbh-green" style="position:absolute;top:0px; right: 0px" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2531087693&amp;site=qq&amp;menu=yes" target="_blank"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle"></div></a>
+<script>
+document.getElementById("clbh_phone_div").onmouseover = function(e){
+var el = document.getElementById("clbh_phone_div");
+el.classList.add('cbh-hover');el.classList.remove('cbh-static');
+}
+document.getElementById("clbh_phone_div").onmouseleave = function(e){
+var el = document.getElementById("clbh_phone_div");
+el.classList.remove('cbh-hover');el.classList.add('cbh-static');
+}</script>
+<script>var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.aw-hk.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '3']);
+    // _paq.push(["setCustomVariable", 1, "Id", window.app.user_track_id, "visit"]);
+    // _paq.push(["setCustomVariable", 2, "Source", window.app.utm_source, "visit"]);
+    // _paq.push(["setCustomVariable", 3, "Term", window.app.utm_term, "visit"]);
+    // _paq.push(["setCustomVariable", 4, "User", window.app.user_id, "visit"]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();</script>
+<noscript><img src="//piwik.aw-hk.com/piwik.php?idsite=3" style="border:0;" alt="" /></noscript>
+</body>
+</html>
